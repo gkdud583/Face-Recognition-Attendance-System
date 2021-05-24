@@ -100,7 +100,7 @@ mysql> desc picture;
 
 * 출석 하기 창 - 기존에 등록된 학생의 얼굴 인식
 > 출석하기에서 20초 동안 얼굴을 인식하고 인식된 얼굴과 trainer.yml파일에 추출된 각 학생의 특징과 일치하는지 확인한 후에 등록된 학생일 경우 학번이 뜨도록 하고 등록되지 않은 학생일 경우 “unknown”이 뜨도록 하였다.
-> 얼굴을 인식했을 때 등록된 학생의 얼굴일 경우 DB에 날짜, 시간, 학번을 저장하고 출석 관리 창에서 확인할 수 있도록 하였다. 
+> 얼굴을 인식했을 때 등록된 학생의 얼굴일 경우 attendance 테이블에 날짜, 시간, 학번을 저장하고 출석 관리 창에서 확인할 수 있도록 하였다. 
 
 ![image](https://user-images.githubusercontent.com/60775067/119304551-5dd69580-bca2-11eb-9319-8cc7edeb34b8.png)
 ![image](https://user-images.githubusercontent.com/60775067/119304570-64fda380-bca2-11eb-80b5-17c5a92d1335.png)
@@ -110,7 +110,7 @@ mysql> desc picture;
 ![image](https://user-images.githubusercontent.com/60775067/119304627-7cd52780-bca2-11eb-8df9-97b92ebc833a.png)
 
 * 사진 등록 창
-> 헤어스타일의 변화, 모자 또는 마스크의 착용 여부 등에 따라 얼굴인식 결과가 달라질 수 있기 때문에 이미 등록된 학생의 얼굴을 인식하지 못할 경우 사진 등록 창을 통해 추가로 사진을 등록할 수 있도록 하였다. 
+> 헤어스타일의 변화, 모자 또는 마스크의 착용 여부 등에 따라 얼굴인식 결과가 달라질 수 있기 때문에 사진 등록 창을 통해 추가로 사진을 등록할 수 있도록 하였다. 
 
 ![image](https://user-images.githubusercontent.com/60775067/119304770-b3ab3d80-bca2-11eb-92eb-498c31204e82.png)
 ![image](https://user-images.githubusercontent.com/60775067/119304865-e2291880-bca2-11eb-9b28-77908053cf22.png)
