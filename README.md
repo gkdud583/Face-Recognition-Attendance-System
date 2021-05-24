@@ -123,6 +123,7 @@ mysql> desc picture;
 
 ## 얼굴 인식 오픈소스
 https://m.blog.naver.com/ljy9378/221442172937
+
 https://www.hackster.io/mjrobot/real-time-face-recognition-an-end-to-end-project-a10826
 
 
