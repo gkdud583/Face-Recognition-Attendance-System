@@ -126,4 +126,6 @@ https://m.blog.naver.com/ljy9378/221442172937
 
 https://www.hackster.io/mjrobot/real-time-face-recognition-an-end-to-end-project-a10826
 
+https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/
+
 
